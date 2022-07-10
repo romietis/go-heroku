@@ -15,6 +15,6 @@ func main() {
 	router := gin.Default()
 	router.GET("/", GetHomepage)
 
-	router.Run("0.0.0.0:8080")
+	router.Run()
 	log.Println("Server started!")
 }
